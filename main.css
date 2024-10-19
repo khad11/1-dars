@@ -1,0 +1,95 @@
+/* lugrasimo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lugrasimo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/lugrasimo-v4-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* pt-serif-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/pt-serif-v18-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* pt-serif-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "PT Serif";
+  font-style: italic;
+  font-weight: 400;
+  src: url("./fonts/pt-serif-v18-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+.title {
+  color: rgb(30, 30, 209);
+  font-size: 50px;
+  line-height: 55px;
+  font-family: "Lugrasimo";
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-transform: capitalize;
+}
+body {
+  background-color: aliceblue;
+}
+.container {
+  background-color: #ffffff;
+  max-width: 1200px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+.club-info {
+  margin: 0 auto;
+  list-style: none;
+}
+.club-title-logo {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.all-clubs {
+  border: 1px solid rgb(97, 122, 132);
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  /* display: flex; */
+}
+.text {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-family: "PT Serif";
+  font-style: italic;
+  color: black;
+}
+.team {
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "Lugrasimo";
+  color: rgb(26, 25, 25);
+}
+.trophies {
+  list-style: none;
+  font-size: 18px;
+  font-family: "PT Serif";
+}
+.all-trophies {
+  border: 1px solid rgb(30, 23, 57);
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 30px 80px;
+
+  &:hover {
+    background-color: #f8fcfe;
+    transition: 0.3s;
+  }
+}
